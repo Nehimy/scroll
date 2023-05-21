@@ -8,7 +8,8 @@
 
 body {
     height: 300vh;
-    background: #ff6bcc;
+    /* background: #ff6bcc; */
+    background:   radial-gradient(circle farthest-corner at 50% 0, rgb(255, 143, 0) 10%, rgb(255, 76, 193) 30%);
 }
 
 .example {
