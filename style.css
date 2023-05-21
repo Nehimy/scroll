@@ -1,11 +1,30 @@
-/*
-   El valor border-box en el box-sizing hace que el padding y el border pasen a formar parte
-   del cálculo del ancho de la caja.
- */
-
-*{
+* {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    height: 300vh;
+    background: #ff6bcc;
+}
+
+.example {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 150px;
+    height: 100px;
+    background: #ffedda;
+    font-size: 50px;
+    font-family: 'Pacifico', cursive;
+    line-height: 85px;
+    text-align: center;
+    color: white;
+    border-radius: 13%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    place-content: center;
+}
