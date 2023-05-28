@@ -13,7 +13,7 @@ body {
     background: radial-gradient(circle at 100% 0px, rgb(240, 156, 51) 0%, rgb(245, 146, 52) 4%, rgb(249, 135, 54) 7%, rgb(253, 123, 56) 10%, rgb(255, 110, 60) 14%, rgb(255, 95, 65) 18%, rgb(255, 78, 70) 21%, rgb(255, 56, 75) 25%, rgb(253, 24, 81) 29%, rgb(249, 0, 89) 32%, rgb(245, 0, 98) 36%, rgb(240, 0, 108) 39%, rgb(233, 0, 119) 43%, rgb(225, 0, 131) 46%, rgb(215, 0, 144) 50%, rgb(78, 66, 212) 75%, rgb(78, 66, 212) 100%);
 }
 
-.container-cloud-1 {
+.cloud-1 {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -21,40 +21,61 @@ body {
 
 .cloud-2 {
     position: fixed;
-    top: 40%;
+    top: 20%;
     left: 0%;
-    position: absolute;
 }
 
-.example {
+.cloud-3 {
     position: fixed;
-    top: 50%;
-    left: 50%;
-    width: 150px;
-    height: 100px;
-    background: #ffedda;
-    font-size: 50px;
-    font-family: 'Pacifico', cursive;
-    line-height: 85px;
-    text-align: center;
-    color: white;
-    border-radius: 13%;
-    transform: translate(-50%, -50%);
-    display: grid;
-    place-content: center;
+    top: 10%;
+    right: 0%;
+}
+
+.heart-1 {
+    position: fixed;
+    top: 5%;
+    left: 0%;
+}
+
+.heart-2 {
+    position: fixed;
+    top: 35%;
+    right: 0%;
+}
+
+.chibigirl {
+    position: fixed;
+    height: 300px;
+    bottom: 5%;
+    right: 25%;
+}
+
+.moon {
+    position: fixed;
+    height: 157px;
+    top: 8%;
+    right: 38%;
+}
+
+.circle {
+    position: fixed;
+    top: 5%;
+    right: 35%;
+    z-index: -1;
+    animation: dash 6s linear alternate infinite;
 }
 
 path {
-    stroke-dasharray: 100;
-    stroke-dashoffset: 0;
-    animation: dash 5s linear alternate infinite;
+    stroke-dasharray: 15;
+    stroke-dashoffset: 100;
+    animation: dash 6s linear alternate infinite;
 }
 
 @keyframes dash {
-  from {
-    stroke-dashoffset: 200;
+  0% {
+    stroke-dashoffset: 110;
   }
-  to {
+  100% {
     stroke-dashoffset: 0;
     }
 }

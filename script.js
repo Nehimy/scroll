@@ -3,8 +3,8 @@ let i =100;
 window.onscroll = function() {
 
   var y = window.scrollY;
-  document.querySelector('.example').innerHTML=y;
-  document.querySelector('.example').style.backgroundColor="black";
+  // document.querySelector('.example').innerHTML=y;
+  // document.querySelector('.example').style.backgroundColor="black";
 
   if (y >= 100)
     /* document.body.style.background= "linear-gradient(10deg, rgba(212,17,15,1) 70%, rgba(247,193,0,1) 100%)"; */
