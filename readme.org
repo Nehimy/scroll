@@ -1,3 +1,5 @@
 
 
 *  Ejemplo de scroll degradado de colores además dibujo y animación svg
+
+Esto en principio era un solo ejemplo donde detectaba el movimiento del scroll y mientra muevo el scroll genero un cambio en el degradado de colores en el body.
