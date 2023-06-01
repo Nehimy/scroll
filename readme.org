@@ -1,0 +1,3 @@
+
+
+*  Ejemplo de scroll degradado de colores además dibujo y animación svg
