@@ -1,8 +1,27 @@
 
 
-*  Ejemplo de scroll degradado de colores además dibujo y animación svg
 
-Esto en principio era un solo ejemplo donde detectaba el movimiento del scroll y mientra muevo el scroll genero un cambio en el degradado de colores en el body.
+*  Ejemplo de scroll con degradado de colores además de dibujo y animación svg
+
+Esto en principio era un solo ejemplo donde detectaba el movimiento del scroll y generaba un cambio en el body con degradado de colores, esta parte fue programada en javascript.
+
+Luego pensé que seria bueno añadir una imagen y termine insertando una imagen svg de un chibi y ademas tuve la idea de hacer dibujos con pero svg código.
+
+* Cosas curiosas que aprendí de svg
+=fill= : Es llenar o rellenar y sirve para darle un color de relleno a una figura svg.
+=stroke=: Es el trazo, esto es usado para definir el color del borde.
+=stroke-width=: Es el ancho del trazo, evidentemente esto le da el grosor al borde la la figura creada.
+=stroke-dasharray=: Creo que es el largo de la linea segmentada.
+=stroke-linecap=: Línea de trazo creo que esto modifica la punta del trazo.
+
+** Animate
+En la etiqueta animate podemos generar animaciones.
+=attributeName=: Aquí hago mención de aquello a lo que quiero animar ej. opacity, "r" que es el radio del circle.
+=dur=:  El atributo dur indica la duración simple de una animación.
+=values=: El atributo de valores tiene diferentes significados, según el contexto en el que se use, ya sea que define una secuencia de valores utilizados en el transcurso de una animación o es una lista de números para una matriz de color, que se interpreta de manera diferente según el tipo de cambio de color a realizar.
 
 * Imagen
 [[https://imgur.com/OHW9Hv7.png]]
+
+* Vídeo
+[[https://youtu.be/uD4FaRGeUOI]]
